@@ -13,6 +13,7 @@
 		4688A1C4250C1D480041CBE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4688A1C3250C1D480041CBE3 /* Assets.xcassets */; };
 		4688A1C7250C1D480041CBE3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4688A1C6250C1D480041CBE3 /* Preview Assets.xcassets */; };
 		4688A1CA250C1D480041CBE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4688A1C8250C1D480041CBE3 /* LaunchScreen.storyboard */; };
+		4688A1D2250C3C9A0041CBE3 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4688A1D1250C3C9A0041CBE3 /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4688A1C6250C1D480041CBE3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4688A1C9250C1D480041CBE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4688A1CB250C1D480041CBE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4688A1D1250C3C9A0041CBE3 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		4688A1BC250C1D420041CBE3 /* iExpense */ = {
 			isa = PBXGroup;
 			children = (
+				4688A1D1250C3C9A0041CBE3 /* AddView.swift */,
 				4688A1BD250C1D420041CBE3 /* AppDelegate.swift */,
 				4688A1BF250C1D420041CBE3 /* SceneDelegate.swift */,
 				4688A1C1250C1D420041CBE3 /* ContentView.swift */,
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4688A1D2250C3C9A0041CBE3 /* AddView.swift in Sources */,
 				4688A1BE250C1D420041CBE3 /* AppDelegate.swift in Sources */,
 				4688A1C0250C1D420041CBE3 /* SceneDelegate.swift in Sources */,
 				4688A1C2250C1D420041CBE3 /* ContentView.swift in Sources */,
