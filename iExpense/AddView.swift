@@ -13,13 +13,16 @@ struct AddView: View {
     @State private var name = ""
     @State private var type = "Personal"
     @State private var amount = ""
-
+    
     static let types = ["Business", "Personal"]
     
     @ObservedObject var expenses: Expenses
     
+    @Environment(\.presentationMode) var presentationMode
+    
     var body: some View {
-                
+        
+        
         NavigationView {
             Form {
                 TextField("Name", text: $name)
@@ -36,6 +39,7 @@ struct AddView: View {
                     let item = ExpenseItem(name: self.name, type: self.type, amount: actualAmount)
                     self.expenses.items.append(item)
                 }
+                self.presentationMode.wrappedValue.dismiss()
             })
         }
     }
