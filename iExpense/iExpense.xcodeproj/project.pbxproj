@@ -58,9 +58,9 @@
 		4688A1BC250C1D420041CBE3 /* iExpense */ = {
 			isa = PBXGroup;
 			children = (
-				4688A1D3250C40EF0041CBE3 /* AddView.swift */,
 				4688A1BD250C1D420041CBE3 /* AppDelegate.swift */,
 				4688A1BF250C1D420041CBE3 /* SceneDelegate.swift */,
+				4688A1D3250C40EF0041CBE3 /* AddView.swift */,
 				4688A1C1250C1D420041CBE3 /* ContentView.swift */,
 				4688A1C3250C1D480041CBE3 /* Assets.xcassets */,
 				4688A1C8250C1D480041CBE3 /* LaunchScreen.storyboard */,
